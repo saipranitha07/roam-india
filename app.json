@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Roam India",
+    "slug": "roam-india",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "roamindia",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#F8F6F0",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gdgc.roamindia",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Roam India does not require camera access.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.gdgc.roamindia",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon-foreground.png",
+        "backgroundColor": "#173F35"
+      }
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-font"
+    ]
+  }
+}
